@@ -1,0 +1,28 @@
+body {
+	margin-right: 25%;
+	margin-left: 25%;	
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;	
+}
+
+.twitter-follow-button, .vcentered {
+	vertical-align: middle;
+}
+
+h1 {
+	color:#333;
+	font:24px/24px verdana,arial,helvetica,sans-serif;
+	font-weight:900;
+	margin-bottom: 0px;
+}
+
+#main_frame {
+	margin-top: 0px;	
+	border: 1px dashed black;
+	background-color: #eeeeee;
+	height: 80%;
+	padding: 2%;
+}
