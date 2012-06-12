@@ -55,12 +55,20 @@
 						</div>
 					</a>
 				</div>
+				
+				<div class='carousel_control_left'>
+					<a href='#' class='left_arrow'>Prev</a>
+				</div>
+				
+				<div class='carousel_control_right'>
+					<a href='#' class='right_arrow'>Next</a>
+				</div>
 			</div>
 			
 			<script type='text/javascript'>
 				var div = document.getElementById('main_carousel');
 				var mainCarousel = new Carousel(div, 5000);
-				mainCarousel.Start();
+				mainCarousel.StartScrolling();
 			</script>
 			
 			<div class='hcentered'>

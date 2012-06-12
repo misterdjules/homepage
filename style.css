@@ -54,9 +54,13 @@ h1 {
 
 .carousel_scroll_area {	
 	margin: 0;
-	position: relative;
-	width: 200%;
+	position: relative;	
 	height: 100%;
+	/*
+	 * width will be set dynamically by the associated 
+	 * carousel.js script, depending on the number of capsules.
+	 * For n capsules, the width will be 100 * n %.
+	 */
 	
 	transition: left 1s;
 	-webkit-transition: left 1s;
@@ -67,11 +71,21 @@ h1 {
 .carousel_capsule {
 	float: left;
 	display: block;
-	position: relative;
-	width: 50%;
+	position: relative;	
+	
+	/*
+	 * width will be set dynamically by the associated 
+	 * carousel.js script, depending on the number of capsules.
+	 * For n capsules, the width will be 100 / n %.
+	 */
 }
 
 .carousel_capsule_image {
+	/*
+	 * max-width is used to provide automatic scaling of images when the 
+	 * browser's window is resized. 
+	 * See http://unstoppablerobotninja.com/entry/fluid-images for more info.
+	 */
 	max-width: 100%;	
 	position: relative;
 }
@@ -111,3 +125,50 @@ h1 {
 .carousel_capsule_desc_content {	
 	font-size:0.7em;		
 }
+
+.carousel_control_left {
+	position: absolute;
+	top: 5%;
+	left: 3%;
+	height: 15%;
+	padding-right: 5%;
+	visibility: hidden;
+}
+
+.carousel_control_right {
+	position: absolute;
+	right: 0px;
+	top: 5%;
+	right: 3%;
+	height: 15%;
+	padding-left: 5%;
+	visibility: hidden;
+}
+
+.left_arrow::before {
+	width: 0;
+	height: 0;
+	border-top: 0.7em solid transparent;
+	border-bottom: 0.7em solid transparent;
+	border-right: 0.7em solid black;
+	content: '';
+	left: -20%;
+	position: absolute;
+	top: 0;
+}
+
+.right_arrow:after {	
+	width: 0;
+	height: 0;
+	border-top: 0.7em solid transparent;
+	border-bottom: 0.7em solid transparent;
+	border-left: 0.7em solid black;
+	content: '';
+	right: -20%;
+	position: absolute;
+	top: 0;
+}
+
+a.right_arrow, a.left_arrow {
+	color: black;
+}		
