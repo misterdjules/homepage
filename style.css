@@ -22,10 +22,10 @@ a {
 }
 
 #content {
-	position: absolute;
-	top: 25%;
-	left: 25%;
-	width: 50%;
+	position: 	absolute;
+	top: 		10%;
+	left: 		25%;
+	width: 		50%;
 }
 
 h1 {
