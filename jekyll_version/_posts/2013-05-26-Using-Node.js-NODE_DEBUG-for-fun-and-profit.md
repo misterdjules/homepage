@@ -23,7 +23,7 @@ Unfortunately, not all internal modules support enabling debug logs using _NODE\
 - _http_,  for HTTP connections, parse errors and errors on the underlying socket.
 - _fs_, to be notified when you forgot to set a callback on a fs operation.
 - _tls_, to determine if you're actually using an encrypted connection, and to follow the handshake sequence.
-- _module_, for detailed information about external modules loading.
+- _module_, for detailed information about modules loading.
 - _timers_, for timers handling.
 
 For instance, you can enable debug logs for all these modules using the following command:
