@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Julien Gilli, Lua, C++ and web Freelance developer living in Montreal
+feed: /atom.xml
 ---
 {% include JB/setup %}
 # Recent blog posts
