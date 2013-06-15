@@ -114,3 +114,6 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+
+# Custom Settings
+relative_links_tags_to_fix: ['src', 'href']
