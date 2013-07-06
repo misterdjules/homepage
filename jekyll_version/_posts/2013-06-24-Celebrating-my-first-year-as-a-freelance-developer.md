@@ -112,6 +112,9 @@ that you can publish online, or at least show to potential clients, otherwise it
 - Accounting solutions: Harvest vs Freshbooks: Harvest because it's cheaper and it's almost equivalent for beginners.
 - Self training: safari books online + local conferences + blogs.
 - Doing taxes yourself: less expensive, highly informative and easy.
+- Keeping your expenses and tax records up to date at every transaction: helps a lot to make the process really smooth at the 
+end of the quarter/year.
+- Store receipts electronically on the cloud, take pictures of them using your phone.
 
 
 = How did it work for me? =
