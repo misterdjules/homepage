@@ -92,7 +92,7 @@ Quick paperwork that can save you money
 
 Paperwork can be very frustrating sometimes, but it can also save you a lot of money! One thing that is really easy to setup is registering your sales tax numbers. It provides you with two advantages:
 - tax numbers on your invoices that make you look more professionnal.
-- the ability to deduct some of the sales tax that you paid when buying goods that help you run your business (computers, software, etc.).
+- the ability to get a refund on some of the sales tax that you paid when buying goods that help you run your business (computers, software, etc.).
 
 In other words, it can save you lots of money and prevents your clients to wonder if you're reaully serious about your business.
 
@@ -102,15 +102,38 @@ Putting your code online
 ------------------------
 
 Your code tells a lot about who you are as a programmer. Potential clients will want to see at least a few hundreds lines of your code
- and you should be able to provide them with it very quickly. Of course, the more code you wrote is available publicly (unless you don't have the right to publish it), the better. GitHub and BitBucket are two great platforms when it comes to hosting code and publishing it. They are two very similar technical platforms (at least from a user point of view), but their purpose is very different. While GitHub is really a social coding platform, I see BitBucket more as a business friendly cloud code management service.
+and you should be able to provide them with it very quickly. Of course, the more code you wrote is available publicly, unless you don't have the right to publish it, the better. 
 
-- Putting your code online: GitHub or BitBucket? -> BitBucket for unlimited private repositories. Clients will want to see your code.
+GitHub and BitBucket are two great platforms when it comes to hosting code and publishing it. They are very similar technically speaking and in terms of basic user features, but their purpose is very different. While GitHub is really a social coding platform, I see BitBucket more as a business friendly code management service in the cloud.
+
+GitHub allows you to have an unlimited number of collaborators, but [you have to pay for private repositories](https://github.com/plans). You can have 5 private repositories for 7$/month, 10 for 12$, 20 for 22$ and finally 50 for $50. With Bitbucket, while you can have an unlimited number of repositories (private or public), the [different available plans](https://bitbucket.org/plans) limit the number of people you can collaborate with on a given repository: from 5 collaborators for free to an unlimited number of collaborators for 200$.
+
+Depending on the type of projects you work on, you might need more private repositories, or more collaborators. If you plan to work on open source projects, GitHub is really the platform of choice. On the other hand, if you plan to build proprietary software with a limited number of collaborators, and you need to host your code on the cloud, BitBucket is an excellent solution. Personnally, I use both of them: GitHub when I contribute to open source software, and BitBucket when I work on my personal projects.
 
 What you don't actually need to do right now
 --------------------------------------------
 
-- A website: recruiters and companies don't look for it, unless your a front-end web developer. 
-- Incorporating your business. This is really useful if your revenue is greater than 100K dollars, otherwise it's too costly. 
+It is common for aspiring freelance developers, me included, to think that they absolutely need to have everything other businesses usually have before they can start getting contracts. Things like a good looking website or an incorporated company can indeed be very useful for established businesses, but it is not necessary for a freelance programmer who is just starting. Worse, it can even incur large additional costs, both in time and money, at a time when these resources can be very scarce.
+
+Building and maintaining your website will take you time that you won't be able to spend on getting contracts. In my experience, potential clients don't really care if you have a good looking website, as long as your code can be found somewhere. For that purpose, there are better solutions than custom websites in the previous section "Putting your code online".
+
+Incorporating your company will cost you money to register it, but also to unregister it. That can be a lot of money spent for nothing if you quickly realize you need to change your business strategy soon after you started. It will also take much more time in paperwork that you will have to offload to an accountant, which will also cost you money. In my opinion, you can spend at least a few years without incorporating your business by declaring yourself as self-employed. Unless you make more than 100K$/year, incorporating your business should not represent a big advantage.
+
+You're now ready to move on to the next step of your journey as an aspiring freelance developer. But before doing so, let's summarize what we learned so far. 
+
+To be well prepared for being a successful freelancer, you'll need to do the following:
+- Spend a few years as a full-time employee and make contacts that trust your work and yourself.
+- Save money while your employed so that you don't need land a contract in the first few weeks when you're a freelance developer.
+- Leave your employer respectfully, giving her plenty of time to prepare your departure, that will help you keep a good relationship 
+with your old employer and colleagues, which will help you in the mid/long term.
+- Choose your skills, ideally two mainstream and one niche.
+- Invest in the right hardware to be ready to tackle any challenge for the next three years. An high-end macbook pro is my recommendation.
+- Do paperwork that can save you money, like registering your tax numbers, as soon as possible.
+- Put your code online so that potential clients can actually see how good it is.
+
+On the contrary, you should not take too much time to build a sofisticated website, and you should not incorporate your businness.
+
+With all that in mind, let's move to the next stage of your journey: what to do after you left your full-time job and before you sign your first contracts.
 
 Transition, or what to do before you sign your first clients
 ============================================================
