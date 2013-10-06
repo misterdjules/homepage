@@ -7,11 +7,11 @@ tags: [FreelanceInMontrealSeries]
 ---
 {% include JB/setup %}
 
-One year ago, I left my full-time job at [Ubisoft Montreal](http://montreal.ubisoft.com/en) and became a freelance developer. In [this article series](/tags.html#freelance_in_montreal_series-ref), I share my experiences and a few concrete tips on how to switch to freelancing. It is, of course, targeted towards aspiring freelance programmers, but other freelance workers will hopefully also find a lot to learn. Some of the information presented is also specific to Montreal, but the overall step by step process can be applied elsewhere.
+One year ago, I left my full-time job at [Ubisoft Montreal](http://montreal.ubisoft.com/en) and became a freelance developer. In [this article series](/tags.html#freelance_in_montreal_series-ref), __I share my experiences and a few concrete tips on how to switch from a permanent job to freelancing__. It is, of course, targeted towards aspiring freelance programmers, but other freelance workers will hopefully also find a lot to learn. Some of the information presented is also specific to Montreal, but the overall step by step process can be applied elsewhere.
 
-[This series](/tags.html#freelance_in_montreal_series-ref) is composed of three articles. Each article covers a stage of your progress towards your goal of becoming a freelance developer. They are presented in a chronological order. This week, we'll go through the _preparation_ stage: before you leave your current position and can position yourself as a freelance developer. Next week, the following stage we call _transition_ will be presented. At that point, the switch to freelancing will be done, but no contract is signed yet. Finally, two weeks from now, the _execution_ stage will give you some tips on how to keep your business moving forward while working on your first contracts.
+[This ongoing series](/tags.html#freelance_in_montreal_series-ref) is composed of three articles. Each article covers a stage of your progress towards your goal of becoming a freelance developer. They are presented in a chronological order. __This week, we'll go through the _preparation_ stage: before you leave your current position and can introduce yourself as a freelance developer.__ Next week, the following stage we call _transition_ will be presented. At that point, the switch to freelancing will be done, but no contract will have been signed yet. Finally, two weeks from now, the _execution_ stage will give you some tips on how to keep your business moving forward while working on your first contracts.
 
-A career is something very personal, and it is very likely that people have different views about what becoming a freelance developer means. __This series is not about answering all questions to everyone. It's about sharing my experience with other newcomers so that they can benefit from it.__ Any question or remark is more than welcome, please share them in the comments at the bottom of this page.
+A career is something very personal, and people have different views about what becoming a freelance developer means. __This series is not about answering all questions to everyone. It's about sharing my experience with other newcomers so that they can benefit from it.__ Any question or remark is more than welcome, please share them in the comments at the bottom of this page.
 
 Before diving in, you may wonder how it worked for me. So far, I have been very happy with the results. __My clients now include well established multi-nationals and local startups. They allowed me to increase my revenue by 20% while taking two months of vacation. Three new skills were also added to my skills set: iOS applications development, Node.js and Lua. Last but not least, I've met very inspiring people who I'm looking forward to collaborate with in the near future.__
 
@@ -42,7 +42,7 @@ __I would recommend a buffer of one year:__ today, the demand for developers is 
 Making contacts
 ---------------
 
-In the beginning, __your direct professional network, like former co-workers, will bring you the mast majority of your contract opportunities.__ Some of them may have started their own business and are looking for a software developer. Their trust and their experience working with you is often as important as your skills. This is very frequent in Montreal's videogames industry where senior employees often start their own indie game studio, but it also happens in other industries. 
+In the beginning, __your direct professional network, like former co-workers, will bring you the vast majority of your contract opportunities.__ Some of them may have started their own business and are looking for a software developer. Their trust and their experience working with you is often as important as your skills. This is very frequent in Montreal's videogames industry where senior employees often start their own indie game studio, but it also happens in other industries. 
 
 People who trust you not only for your technical skills will help you acquire new ones. Someone who had a very pleasant experience working with you will be more inclined to hire you to work on something you don't master. For instance, if you're very experienced in C++ programming but have little experience in web development, a trusting former colleague could help you move to web development. __This is why your previous work experience is precious: the more people you worked with, the more likely it is that you'll have someone in your direct professionnal network looking for someone they trust.__
 
@@ -50,7 +50,7 @@ I also recommend that you grow your [Linkedin](http://www.linkedin.com/) network
 
 Other networks can also be very useful to make business connections. [Twitter](https://twitter.com/) and [Coderwall](https://coderwall.com/) are two good examples. Network with people who share similar technological expertise or interest. Their network will come in handy when it's time to advertise yourself as a freelance developer.
 
-At this stage, attending meetups and conferences to meet potential clients or fellow freelance developers is not necessary. Because you're not a freelance developer yet, people will have some difficulties understanding how you're positionning yourself. Chances are you don't even know yourself. Even if you were presented with contract opportunites, you would not be able to accept them. At that point your time is best spent nurturing your relationships with your co-workers.
+__At this stage, attending meetups and conferences to meet potential clients or fellow freelance developers is not necessary.__ Because you're not a freelance developer yet, people will have some difficulties understanding how you're positionning yourself. Chances are you don't even know yourself. Even if you were presented with contract opportunites, you would not be able to accept them. At that point your time is best spent nurturing your relationships with your co-workers.
 
 Playing nice with your employer 
 ----------------------------
@@ -131,20 +131,20 @@ To be well prepared for being a successful freelancer, you'll need to do the fol
 - Spend a few years as a full-time employee and make contacts who trust you.
 - Save money while you are employed so that you don't need to sign a contract in the first few weeks after you left your job.
 - Grow your professionnal network on Linkedin and other profesionnal networking platforms.
-- Leave your employer respectfully, giving her plenty of time to prepare your departure. It will help you keep a good relationship 
-with your old employer and colleagues, which will help you in the long term.
+- Leave your employer in good terms, giving her plenty of time to prepare your departure.
 - Choose your skills, ideally two mainstream and one niche.
 - Invest in the right hardware to be ready to tackle any challenge for the next three years. An high-end macbook pro is my recommendation.
 - Do paperwork that can save you money, like registering your tax numbers, as soon as possible.
 - Put your code online so that potential clients can actually see how good it is.
 
 On the contrary, you should _not_ do the following:
- - Build a sofisticated website.
+ - Build a complex website.
  - Incorporate your business.
 
-If you'd like to get much more details about some of the subjects covered in this series, you are invited to refer to the book entitled ["Le guide du travailleur autonome"](http://www.goodreads.com/book/show/7269128-le-guide-du-travailleur-autonome) written by Jean-Benoît Nadeau. Unfortunately, I own a French edition and I don't know if an English one is available.
+If you'd like to get much more details about some of the subjects covered in this series, ["Le guide du travailleur autonome"](http://www.goodreads.com/book/show/7269128-le-guide-du-travailleur-autonome) written by Jean-Benoît Nadeau is highly recommended. Unfortunately, I own a French edition and I don't know if an English one is available.
 
-Next week, we'll present what to do after you left your full-time job and before you sign your first contracts. Until then, you're invited to share your ideas in the comments section below. 
+Next week, we'll present what to do after you left your full-time job and before you sign your first contracts.
+Until then, you're invited to share your ideas in the comments section below. To get notified when next articles are available, please [subscribe to my blog](/subscribe.html). 
 
 I'm looking forward to counting you in next week!
 
