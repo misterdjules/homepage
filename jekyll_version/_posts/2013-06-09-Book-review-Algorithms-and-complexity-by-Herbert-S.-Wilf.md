@@ -3,7 +3,7 @@ layout: post
 title: "Book review: Algorithms and complexity by Herbert S. Wilf"
 description: "The book entitled Algorithms and Complexity, written by Herbert S. Wilf, is one of the best introduction ever written on the subject."
 category: 
-tags: []
+tags: [Books]
 ---
 {% include JB/setup %}
 
