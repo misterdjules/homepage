@@ -14,7 +14,17 @@ __Using one reporter is enough in development, but it can be a real pain when ru
 When using [Mocha](http://visionmedia.github.io/mocha/) from the command line to test a Node.js application, having only one reporter output the tests results is usually the best solution. 
 In this situation, developers just need to know at a glance which tests failed and which tests passed for the latest tests run, and they usually don't need to save this information. Here's a contrived example of how Mocha outputs tests results on the command line:
 
-<img src="/assets/mocha_single_reporter.png" alt="Mocha's output using a single reporter" style="max-width:100%"/>
+{% highlight bash %}
+$ mocha -R spec
+  mocha-sample
+       should succeed for true == true
+    1) should fail for true == false
+  1 passing (21 ms)
+  1 failing
+  1) mocha-sample should fail for true == false:
+     AssertionError: expected true to be false
+$
+{% endhighlight %}
 
 Here we're using a single reporter named _spec_. Having more reporters would usually not add any useful information, and it would probably confuse the user. However, there are other situations where having more than one reporter can be very useful. 
 
@@ -38,13 +48,20 @@ Mocha-multi, a Mocha reporters multiplexer
 
 Just install mocha-multi:
 
-```
+{% highlight bash %}
 $ npm install mocha-multi
-```
+{% endhighlight %}
 
 Don't forget to use _--save_ or _--save-dev_ according to your needs and set the _multi_ environment variable to the list of reporters you want to use, separated by a space:
 
-<img src="/assets/mocha-multi.png" alt="Mocha's output using mocha-multi and two reporters" style="max-width:100%"/>
+{% highlight bash %}
+$ ls
+node_modules  package.json  test
+$ multi='xunit=xunit.xml json=report.json' ./node_modules/mocha/bin/_mocha -R mocha-multi
+$ ls
+report.json  node_modules  package.json  test  xunit.xml
+$
+{% endhighlight %}
 
 The value of the multi environment variable should follow a syntax that is easy to understand: _'reporter-name=output reporter2-name=output ...'_, where _output_ can be either _-_ (a dash) for standard output and error, or a filename to output the reporter's output to this file.
 
@@ -59,7 +76,30 @@ I recently submitted [a pull-request that implements multiple reporters support 
 
 Here's how it's done:
 
-<img src="/assets/mocha-multiple-reporters.png" alt="Using Mocha's multiple_reporters_support branch" style="max-width:100%"/>
+{% highlight bash %}
+$ ls
+node_modules  package.json  test
+$ cat package.json
+{
+  "name": "mocha-sample",
+  "version": "0.0.0",
+  "description": "Sample project using mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Julien Gilli",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "git+https://github.com/misterdjules/mocha.git#multiple_reporters_support"
+  }
+}
+$ ./node_modules/mocha/bin/_mocha -R xunit-file,mocha-json-file-reporter 2>&1 > /dev/null
+$ ls
+node_modules  package.json  report.json  test  xunit.xml
+$
+{% endhighlight %}
 
 Here, we use two reporters: [xunit-file](https://github.com/peerigon/xunit-file) and [mocha-json-file-reporter](https://github.com/ArtemisiaSolutions/mocha-json-file-reporter).
 
