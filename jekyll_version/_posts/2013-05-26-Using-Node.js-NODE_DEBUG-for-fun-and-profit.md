@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-Using the _NODE\_DEBUG_ environment variable can be used to enable debug logs for some Node's internal modules. It gives you a lot of information about what these modules are actually doing. This is very helpful in many different common cases, like when you're stuck on a module loading issue.
+The _NODE\_DEBUG_ environment variable can be used to enable debug logs for some Node's internal modules. It gives you a lot of information about what these modules are actually doing. This is very helpful in many different common cases, like when you're stuck on a module loading issue.
 
 To use _NODE\_DEBUG_, simply set its value to a list of internal module names, each identifying a module which you want to log debug information for.
 
