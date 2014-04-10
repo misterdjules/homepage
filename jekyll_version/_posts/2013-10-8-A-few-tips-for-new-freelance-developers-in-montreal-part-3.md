@@ -3,7 +3,7 @@ layout: post
 title: "A few tips for aspiring freelance developers in Montreal, part 3"
 description: "One year ago, I left my full-time job to become a freelance developer. In this article, I share my experience and a few tips that may help you do the same."
 category: 
-tags: [FreelanceInMontrealSeries]
+tags: [FreelanceInMontrealSeries,Freelance,Montreal]
 ---
 {% include JB/setup %}
 
