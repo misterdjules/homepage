@@ -9,8 +9,6 @@ tags: [Books]
 
 <div style="float: right; margin: 20px;"><a href="http://www.math.upenn.edu/~wilf/AlgComp3.html"><img src="/assets/algorithms_and_complexity_cover_small.jpg" alt="Book's cover"/></a></div>
 
-= Test =
-
 "Algorithms and Complexity", written by Herbert S. Wilf, is __one of the best introduction ever written on the subject of algorithms analysis and complexity__. With a total of 219 pages including the index, it is a short book, but it almost doesn't miss anything. __Its brievity is actually one of its numerous achievements__, and one that sets it aside from the rest of the litterature on this topic. It allows you to read it from cover to cover multiple times and really understand the matter while being encouraged by your quick progress. It is during my third reading that I decided to write this review.
 
 I got a hardcover copy of the second edition, which __includes solutions to most exercises__ that you will find at the end of each section. The difficulty level of the exercices themselves range from easy to very challenging, with some refreshing ones like _"Find out when and where Euclid lived, and with exactly what words he described his algorithm"_. 
