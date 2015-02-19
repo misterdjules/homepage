@@ -1,1 +1,0 @@
-* Handle browsers with JavaScript disabled.
